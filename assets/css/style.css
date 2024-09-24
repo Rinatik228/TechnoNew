@@ -510,7 +510,7 @@ input::placeholder {
 }
 
 .malling {
-  background-color: #454545;
+  background: #454545;
   margin-top: 68px;
 }
 .malling__wrap {
