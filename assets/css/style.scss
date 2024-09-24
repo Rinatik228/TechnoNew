@@ -172,7 +172,6 @@ input::placeholder{
         border-radius: 20px;
         background: #D9D9D9;
         padding: 4px 4px;
-        transition: all .3s ease;
         align-items: center;
         margin-left: -25px;
         &_ru{
@@ -181,15 +180,7 @@ input::placeholder{
                 font-size: 14px;
             }
         }
-        &-world{
-            border-radius: 50%;
-            -webkit-transition: -webkit-transform .8s ease-in-out;
-            transition: transform .8s ease-in-out;
-            &:hover{
-                -webkit-transform: rotate(360deg);
-                transform: rotate(360deg);
-            }
-        }
+        
     }
     &__burger{
         display: none;

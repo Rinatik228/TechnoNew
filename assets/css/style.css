@@ -250,8 +250,6 @@ input::placeholder {
   border-radius: 20px;
   background: #D9D9D9;
   padding: 4px 4px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -264,18 +262,6 @@ input::placeholder {
   .header__languagebtn_ru {
     font-size: 14px;
   }
-}
-.header__languagebtn-world {
-  border-radius: 50%;
-  -webkit-transition: -webkit-transform 0.8s ease-in-out;
-  transition: -webkit-transform 0.8s ease-in-out;
-  transition: transform 0.8s ease-in-out;
-  transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
-}
-.header__languagebtn-world:hover {
-  -webkit-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-      transform: rotate(360deg);
 }
 .header__burger {
   display: none;
