@@ -40,10 +40,8 @@ button{
     max-width: 1148px;
     margin: 0 auto;
     box-sizing: border-box;
-    @media (max-width: 430px){
+    @media (max-width: 396px){
         max-width: 358px;
-        margin: 0 auto;
-        box-sizing: border-box;
     }
 }
 
@@ -51,7 +49,7 @@ input::placeholder{
     color: #000;
     font-size: 20px;
 
-    @media (max-width: 430px){
+    @media (max-width: 396px){
         font-size: 14px;
     }
 }
@@ -59,14 +57,14 @@ input::placeholder{
 
 
 .header{
-    border-bottom: 3px solid #5252FF;
+    border-bottom: 5px solid #5252FF;
     
     &__wrap{
         display: flex;
         height: 121px;
         padding: 20px 0;
         justify-content: space-between;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             padding: 0 0 20px;
         }
     }
@@ -83,7 +81,7 @@ input::placeholder{
         gap: 57px;
     }
     &__logo{
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 191px;
             height: 50px;
         }
@@ -94,7 +92,7 @@ input::placeholder{
         &_img{
             max-width: 70px;
             margin-top: 10px;
-            @media (max-width:430px) {
+            @media (max-width:396px) {
                 margin-top: 0;
             }
         }
@@ -105,7 +103,7 @@ input::placeholder{
         font-size: 36px;
         font-family: ProtestGuerrilla;
         margin-top: 20px;
-        @media (max-width: 430px){
+        @media (max-width: 396px){
             font-size: 24px;
             margin-top: 20px;
         }
@@ -123,7 +121,7 @@ input::placeholder{
             transform: scale(.9);
             cursor: pointer;
         }
-        @media (max-width: 430px){
+        @media (max-width: 396px){
             display: none;
         }
     }
@@ -133,7 +131,7 @@ input::placeholder{
     &__searching{
         display: flex;
         margin-left: 57px;
-        @media (max-width: 430px){
+        @media (max-width: 396px){
             margin-left: 0;
         }
     }
@@ -145,7 +143,7 @@ input::placeholder{
         margin-top: 20px;
         &-icon{
             background: #D9D9D9 url('../img/search.svg') no-repeat 170px center;   
-            @media (max-width: 430px){
+            @media (max-width: 396px){
                 margin-top: 0;
                 font-size: 14px;
                 width: 148px;
@@ -160,7 +158,7 @@ input::placeholder{
         margin-top: 20px;
         margin-left: 30px;
         justify-content: flex-end;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 86px;
             margin-top: 0;
             margin-left: 0;
@@ -179,7 +177,7 @@ input::placeholder{
         margin-left: -25px;
         &_ru{
             font-size: 20px;
-            @media (max-width: 430px){
+            @media (max-width: 396px){
                 font-size: 14px;
             }
         }
@@ -195,12 +193,12 @@ input::placeholder{
     }
     &__burger{
         display: none;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             display: flex;
             max-width: 46px;
         }
     }
-    @media (max-width:430px) {
+    @media (max-width:396px) {
         &__wrap{
             display: flex;
             align-items: center;
@@ -225,14 +223,14 @@ input::placeholder{
         width: 440px;
         display: flex;
         flex-direction: column;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 223px;
         }
     }
     &__title{
         font-size: 64px;
         margin-top: 238px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 32px;
             margin-top: 20px;
         }
@@ -240,7 +238,7 @@ input::placeholder{
     &__subtitle{
         margin-top: 27px;
         font-size: 24px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 142px;
             margin-top: 4px;
             font-size: 16px;
@@ -256,7 +254,7 @@ input::placeholder{
         font-size: 32px;
         background:#5252FF;
         margin-bottom: 298px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 200px;
             height: 50px;
             margin-top: 4px;
@@ -265,8 +263,8 @@ input::placeholder{
             border-radius: 5px;
         }
     }
-    @media (max-width:430px) {
-        width: 430px;
+    @media (max-width:396px) {
+        width: 396px;
         height: 253px;
     }
 }
@@ -277,7 +275,7 @@ input::placeholder{
         justify-content: center;
         margin-top: 68px;
         font-size: 64px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 32px;
             margin-top: 15px;
         }
@@ -286,7 +284,7 @@ input::placeholder{
         margin-top: 68px;
         display: flex;
         justify-content: space-between;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 15px;
             justify-content: center;
             flex-direction: column;
@@ -298,14 +296,14 @@ input::placeholder{
         display: flex;
         flex-direction: column;
         gap: 30px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             gap: 15px;
         }
     }
     &__new{
         width: 564px;
         height: 436px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 318px;
             height: 200px;
             &_img{
@@ -329,7 +327,7 @@ input::placeholder{
         font-size: 24px;
         margin-top: -218px;
         position: relative;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 262px;
             height: 70px;
             font-size: 16px;
@@ -351,7 +349,7 @@ input::placeholder{
         border-radius: 20px;
         color: #fff;
         font-size: 32px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 55px;
             width: 120px;
             height: 30px;
@@ -371,7 +369,7 @@ input::placeholder{
         justify-content: space-between;
         gap: 158px;
         padding: 25px 0;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             padding: 10px 0;
             gap: 33px;
             justify-content: start;
@@ -385,7 +383,7 @@ input::placeholder{
             transform: scale(1.4);
         }
         &-img{
-            @media (max-width:430px) {
+            @media (max-width:396px) {
                 width: 100px;
                 height: 127px;
             }
@@ -396,14 +394,14 @@ input::placeholder{
         display: flex;
         flex-direction: column;
         width: 710px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 169px;
         }
     }
     &__title{
         font-size: 32px;
         margin-bottom: 52px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 10px;
             margin-bottom: 8px;
         }
@@ -411,7 +409,7 @@ input::placeholder{
     &__subtitle{
         font-size: 20px;
         margin-bottom: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 10px;
             margin-bottom: 4px;
         }
@@ -420,7 +418,7 @@ input::placeholder{
         display: flex;
         justify-content: space-between;
         margin-bottom: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-bottom: 8px;
             gap: 13px;
         }
@@ -430,7 +428,7 @@ input::placeholder{
         height: 70px;
         padding: 20px 50px;
         border-radius: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 116px;
             height: 20px;
             padding: 4px 19px;
@@ -448,7 +446,7 @@ input::placeholder{
         font-size: 24px;
         padding: 20px 29px;
         border-radius: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 60px;
             height: 20px;
             font-size: 10px;
@@ -458,11 +456,11 @@ input::placeholder{
     }
     &__text{
         font-size: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 10px;
         }
     }
-    @media (max-width:430px) {
+    @media (max-width:396px) {
         margin-top: 15px;
     }
 }
@@ -475,7 +473,7 @@ input::placeholder{
         justify-content: center;
         margin-top: 68px;
         font-size: 64px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 15px;
             font-size: 32px;
         }
@@ -483,7 +481,7 @@ input::placeholder{
     &__aboutus{
         margin-top: 68px;
         background: #5252FF;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 15px;
         }
     }
@@ -493,7 +491,7 @@ input::placeholder{
         padding: 64px 0 126px 0;
         width: 1148px;  
         display: flex;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 14px;
             width: 358px;
             height: 261px;
@@ -508,7 +506,7 @@ input::placeholder{
         justify-content: center;
         margin-top: 68px;
         font-size: 64px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 15px;
             font-size: 32px;
         }
@@ -516,7 +514,7 @@ input::placeholder{
     &__columns{
         margin-top: 68px;
         display: flex;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             flex-direction: column;
             margin-top: 15px;
         }
@@ -525,7 +523,7 @@ input::placeholder{
         display: flex;
         align-items: center;
         width: 565px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 358px;
             &-img{
                 width: 105px;
@@ -536,7 +534,7 @@ input::placeholder{
     &__text{
         width: 414px;
         font-size: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 244px;
             font-size: 14px;
         }
@@ -549,14 +547,14 @@ input::placeholder{
         justify-content: center;
         margin-top: 68px;
         font-size: 64px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 15px;
             font-size: 32px;
         }
     }
     &__info{
         margin-top: 68px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 15px;
             &-img{
                 width: 27px;
@@ -566,7 +564,7 @@ input::placeholder{
     }
     &__text{
         font-size: 24px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 14px;
         }
     }
@@ -574,7 +572,7 @@ input::placeholder{
         display: flex;
         justify-content: right;
         font-size: 36px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 15px;
         }
     }
@@ -582,7 +580,7 @@ input::placeholder{
         margin-top: 64px;
         display: flex;
         justify-content: center;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 15px;
         }
     }
@@ -594,7 +592,7 @@ input::placeholder{
         font-size: 24px;
         padding: 20px 29px;
         border-radius: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 92px;
             height: 30px;
             font-size: 10px;
@@ -611,19 +609,19 @@ input::placeholder{
         display: flex;
         justify-content: space-between;
         padding: 68px 0 74px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             padding: 13px 0 2px;
         }
     }
     &__info{
         width: 340px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 175px;
         }
     }
     &__linklogo{
         display: flex;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             &-img{
                 width: 55px;
                 height: 50px;
@@ -635,7 +633,7 @@ input::placeholder{
         font-size: 36px;
         font-family: ProtestGuerrilla;
         margin-top: 20px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 11px;
             font-size: 24px;
         }
@@ -643,14 +641,14 @@ input::placeholder{
     &__subtitle{
         margin-top: 32px;
         font-size: 24px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 2px;
             font-size: 15px;
         }
     }
     &__rights{
         margin-top: 32px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 10px;
             font-size: 10px;
         }
@@ -659,7 +657,7 @@ input::placeholder{
         display: flex;
         justify-content: space-between;
         gap: 40px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             flex-direction: column;
             gap: 6px;
         }
@@ -667,27 +665,27 @@ input::placeholder{
     &__links{
         width: 710px;
         margin-top: 15px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             width: 90px;
         }
     }
     &__link{
         color: #fff;
         font-size: 32px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 14px;
         }
     }
     &__FAQ{
         margin-top: 55px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 6px;
         }
     }
     &__faq{
         color: #fff;
         font-size: 32px;
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             font-size: 14px;
         }
     }
@@ -702,7 +700,7 @@ input::placeholder{
                 transform: scale(.9);
                 cursor: pointer;
             }
-            @media (max-width:430px) {
+            @media (max-width:396px) {
                 &-img{
                     width: 26px;
                     height: 26px;
@@ -710,12 +708,12 @@ input::placeholder{
             }
             
         }
-        @media (max-width:430px) {
+        @media (max-width:396px) {
             margin-top: 18px;
             gap: 6px;
         }
     }
-    @media (max-width:430px) {
+    @media (max-width:396px) {
         margin-top: 15px;
         border-top: 3px solid #5252FF;
     }
